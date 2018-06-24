@@ -1,23 +1,29 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './HorizontalContainer.css'
-class HorizontalContainer extends Component{
-    render(){
-        return(
+class HorizontalContainer extends Component {
+    constructor(){
+        super();
+        this.state={
+            
+        }
+    }
+    render() {
+        return (
             <div class='hor-slide-container'>
-            <div class='card'>
-              
+                
+                <div class='card'>
+                </div>
+                <div class='card'>
+                </div>
+                <div class='card'>
+                </div>
+                <div class='card'>
+                </div>
+                <div class='card'>
+                </div>
+                <div class='card'>
+                </div>
             </div>
-            <div class='card'> 
-            </div>
-            <div class='card'> 
-            </div>
-            <div class='card'> 
-            </div>
-            <div class='card'> 
-            </div>
-            <div class='card'> 
-            </div>
-          </div>
         );
     }
 }
