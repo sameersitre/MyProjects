@@ -7,11 +7,17 @@ import HorizontalContainer from './components/HorizontalContainer'
 //import Header from './components/Header'
 
 class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      
+    }
+  }
   render() {
     return (
       <div className="App">
         <NavigationBar />
-        <div><img src={HorImg} width="" height="inherit" alt="dish horizontal" />
+        <div><img src={HorImg} width="1000px" height="inherit" alt="dish horizontal" />
         </div>
         <HorizontalContainer/>
         <p className="App-intro">
@@ -22,16 +28,6 @@ class App extends Component {
   }
 }
 
-class Header extends Component {
-  render() {
-    return (
-      <header className="App-header" >
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 className="App-title">Welcome to Reactvfueh</h1>
-      </header>
-    );
-  }
-}
 
 
 export default App;
