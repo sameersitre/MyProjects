@@ -7,7 +7,7 @@ class HorizontalContainer extends Component {
         this.state = {
 
             recipes: [
-                'Rasgulla', 'Gulab jamun', 'Chivda', 'Chakali', 'ojvdfijbdfj', 'gijgrijgi', 'hfuewhfwi'
+                'Rasgulla', 'Gulab jamun', 'Chivda', 'Chakali', 'ojvdfijbdfj', 'gijgrijgi', 'hfuewhfwi', 'fgdsgdsgd'
             ]
         }
 

@@ -1,4 +1,4 @@
-ul {
+.leftposition {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,6 +6,10 @@ ul {
     background-color: rgb(49, 95, 63);
     width: inherit
     
+}
+
+.hidetag{
+    display: none;
 }
 
 li {
@@ -30,4 +34,25 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
     
+}
+
+.inputbox1{
+    width: 200px;
+  height: 40px;
+  border: 1px solid lightgray;
+  padding: 3px;
+  margin: 2px;
+  size: 28px;
+}
+.inputbox2{
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightgray;
+    padding: 3px;
+    margin: 2px;
+}
+
+.button1{
+    width: 100px;
+    height: 50px;
 }
