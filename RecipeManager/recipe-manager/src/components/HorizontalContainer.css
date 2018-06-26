@@ -1,16 +1,14 @@
 
 .hor-slide-container{
-
     display: flex;
     justify-content: left;
-
-        width: inherit;
+    width: inherit;
      height: 500px;
     border: 1px solid rgb(177, 177, 177);
       padding: 3px;
       margin: 2px;
-     box-shadow: 0px 7px 20px gainsboro;
-     overflow-x: auto;
+      box-shadow: 0px 5px 20px rgb(202, 202, 202);
+      overflow-x: auto;
   }
   
   .card{
