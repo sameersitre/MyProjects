@@ -11,6 +11,7 @@ class NavigationBar extends Component {
         }
     }
     btnSignInClick() {
+        //add database code here to verify usernsme password
     }
 
     btnSubmitClick() {
